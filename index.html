@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CSS-ramverk</title>
-    <link rel="stylesheet" href="src/style.css">
-  </head>
-  <div class="container"></div>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS-ramverk</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
     <header>
-      <h1>CSS-ramverk</h1>
+      <h1 class="londrina-shadow">CSS-ramverk</h1>
       <nav>
         <ul>
           <li><a href="/">Startida</a></li>
@@ -19,8 +22,39 @@
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
-  </body>
+    <main>
+      <div id="info1">
+        <h2>Vad går uppgiften ut på?</h2>
+        <p>Uppgiften går ut på att vi ska lära oss använda olika CSS-ramverk.</p>
+        <p>Webbplatsen som skapas för uppgiften ska ha minst 4 undersidor:</p>
+        <ul>
+          <li>Startsida</li>
+          <li>Ramverk 1</li>
+          <li>Ramverk 2</li>
+          <li>Publicering</li>
+        </ul>
+        <p>Vi väljer själva vilka ramverk vi vill använda samt vilken publiceringsplattform.
+          Publiceringsplattformen ska dock inte vara baserad på FTP/SFTP.
+        </p>
+      </div>
+
+      <div id="info2">
+        <h2>Valda CSS-ramverk</h2>
+        <p>Jag har valt att använda CSS-ramverken Bootstrap och TaildWind.</p>
+        <ul>
+          <li>Bootstap används under fliken Ramverk 1.</li>
+          <li>TaildWind används under fliken Ramverk 2.</li>
+        </ul>
+        <p>Båda CSS-ramvkerken har jag implementerat som NPM-paket. Undersidorna "Startsida" och "Publicering" är dock
+          designade med vanlig CSS.</p>
+      </div>
+    </main>
+    <footer>
+      <h3>Laboration 1</h3>
+      <p>CSS-ramverk</p>
+      <p>Emma Heikkinen, 2026</p>
+    </footer>
   </div>
+</body>
+
 </html>
