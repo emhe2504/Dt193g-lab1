@@ -1,0 +1,19 @@
+$enable-cssgrid: true;
+
+@import "bootstrap/scss/bootstrap";
+
+.bg-primary-dark {
+    background-color: #163764;
+}
+
+.bg-primary-light {
+    background-color: #4d79b8;
+
+    &:hover {
+        background-color: #3c69a8;
+    }
+}
+
+.mg-t110 {
+    margin-top: 110px;
+}

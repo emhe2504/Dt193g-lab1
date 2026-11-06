@@ -1,26 +1,34 @@
 <!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CSS-ramverk</title>
-    <link rel="stylesheet" href="src/bootstrap.css">
-  </head>
-  <div class="container"></div>
-  <body>
-    <header>
-      <h1 class="font-monospace">Bootstrap</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Startida</a></li>
-          <li><a href="/frameworkOne.html">Ramverk 1</a></li>
-          <li><a href="/frameworkTwo.html">Ramverk 2</a></li>
-          <li><a href="/publication.html">Publicering</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS-ramverk</title>
+  <link rel="stylesheet" href="/src/bootstrap.scss">
+</head>
+
+<body class="font-arial bg-primary-dark">
+  <div class="container-fluid"></div>
+  <header>
+    <h1 class="text-center pt-5 pb-5 bg-primary-dark text-white m-0">Bootstrap</h1>
+    <nav class="container-fluid w-100 p-0">
+      <ul class="grid text-center list-unstyled" style="--bs-columns: 4; --bs-gap: 0;">
+        <li class="bg-primary-light m-0 pt-3 pb-3"><a class="text-white fs-" href="/">Startida</a></li>
+        <li class="bg-primary-light m-0 pt-3 pb-3"><a class="text-white" href="/frameworkOne.html">Ramverk 1</a></li>
+        <li class="bg-primary-light m-0 pt-3 pb-3"><a class="text-white" href="/frameworkTwo.html">Ramverk 2</a></li>
+        <li class="bg-primary-light m-0 pt-3 pb-3"><a class="text-white" href="/publication.html">Publicering</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <div class="bg-white w-75 p-3 mx-auto mg-t110 rounded-3">
+      <h2 class="text-center">Bootstrap</h2>
+      <p>Bootstrap är </p>
+    </div>
+  </main>
+  <footer></footer>
   </div>
+</body>
+
 </html>

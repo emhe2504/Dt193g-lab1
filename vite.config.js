@@ -5,10 +5,10 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                main: resolve(__dirname, "index.html"),
-                frameworkOne: resolve(__dirname, "frameworkOne.html"),
-                frameworkTwo: resolve(__dirname, "frameworkTwo.html"),
-                publication: resolve(__dirname, "publication.html")
+                main: resolve(import.meta.dirname, "index.html"),
+                frameworkOne: resolve(import.meta.dirname, "frameworkOne.html"),
+                frameworkTwo: resolve(import.meta.dirname, "frameworkTwo.html"),
+                publication: resolve(import.meta.dirname, "publication.html")
             }
         }
     }
