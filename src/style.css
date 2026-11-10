@@ -1,8 +1,7 @@
-
 .londrina-shadow {
-  font-family: "Londrina Shadow", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .container {
@@ -91,4 +90,31 @@ footer {
     background-color: #253C6D;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 1020px) {
+
+    #info1,
+    #info2 {
+        width: 80%;
+        padding: 50px 15px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
 }
