@@ -13,6 +13,8 @@
     "vite": "^8.3.6"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "@tailwindcss/vite": "^4.3.5",
+    "bootstrap": "^5.3.8",
+    "tailwindcss": "^4.3.5"
   }
 }
