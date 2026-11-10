@@ -17,3 +17,27 @@ $enable-cssgrid: true;
 .mg-t110 {
     margin-top: 110px;
 }
+
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-width {
+    width: 75%;
+
+    @media (max-width: 768px) {
+        width: 95%;
+    }
+}
+
+.form-width {
+    width: 65%;
+
+    @media (max-width: 1200px) {
+        width: 80%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
