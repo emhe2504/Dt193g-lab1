@@ -11,72 +11,74 @@
 
 <body>
   <div class="container">
-  <header>
-    <h1 class="londrina-shadow">Render</h1>
-    <nav>
-      <ul>
-        <li><a href="/">Startida</a></li>
-        <li><a href="/frameworkOne.html">Ramverk 1</a></li>
-        <li><a href="/frameworkTwo.html">Ramverk 2</a></li>
-        <li><a href="/publication.html">Publicering</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
+    <header>
+      <h1 class="londrina-shadow">Render</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Startida</a></li>
+          <li><a href="/frameworkOne.html">Ramverk 1</a></li>
+          <li><a href="/frameworkTwo.html">Ramverk 2</a></li>
+          <li><a href="/publication.html">Publicering</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
 
-    <div id="info1">
-      <h2>Val av publiceringsplattform</h2>
-      <p>Jag har valt att använda mig av Render för att publicera min webbplats.</p>
-      <p>Kravet för val av plattform är att denna inte ska vara baserad på FTP/SFTP. Plattformen får även gärna vara
-        en plattform vi inte använt tidigare.</p>
-      <p>Mitt val att använda Render, trots att jag använt Render tidigare, baseras på att jag önskar ha mina
-        webbplatser samlade på en plattform. Jag inser dock att det kan vara bra att testa flera plattformar, så jag ska
-        ta till mig av detta framöver i framtida publiceringar.</p>
-      <p>Render har inbyggt stöd för följande språk:</p>
-      <ul>
-        <li>JavaScript och TypeScript (via Node.js eller Bun)</li>
-        <li>Python</li>
-        <li>Ruby</li>
-        <li>Go</li>
-        <li>Rust</li>
-        <li>Elixir</li>
-      </ul>
-      <p>Render har även stöd för publicering av statiska webbplatser skapade med HTML, CSS och Javascript.</p>
-      <br>
-      <p>Kostanden för att använda Render varierar. Enkla statiska webbplatser kan publiceras gratis. Kostnaden för
-        andra tjänster varierar beroende på vilken typ av webbplats som publiceras samt vilken plan användaren har valt.
-      </p>
-      <p>Följande planer finns:</p>
-      <ul>
-        <li>Hobby - $0/månad</li>
-        <li>Pro - $25/månad</li>
-        <li>Scale - $499/månad</li>
-        <li>Enterprise - Skräddarsydd prissättning</li>
-      </ul>
-      <p>Utöver kostnaden för själva planen kan det tillkomma avgifter för använding av olika resurser.</p>
-      <br>
-      <p>Fördelarna med Render enligt mig är att publiceringen är väldigt smidig. Speciellt när man arbetar med Vite och
-        GitHub som jag gör i denna uppgift. Jag tycker även att det är smidigt att ha alla webbplatser samlade på en
-        plattform. Jag personligen har aldrig haft något strul med mina publiceringar på Render.</p>
-      <p>Nackdelarna med att använda Render igen är att jag inte utvecklar någon erfarenhet av att använda andra
-        publiceringsplattformar. Detta är något som jag ska ta till mig av och fundera på att använda andra plattformar
-        framöver.</p>
-      <br>
-      <p>När jag ska publicera min webbplats på Render går jag tillväga på följande sätt:</p>
-      <ul id="numUl">
-        <li>Med kommandot npm run build bygger Vite webbplatsen och optimerar filerna för publicering.</li>
-        <li>En dist-katalog skapas och innehåller de färdiga filerna för webbplatsen.</li>
-        <li>Jag kopplar sedan mitt repository i GitHub till Render och anger npm run build som Build Command och dist
-          som Publish Directory.</li>
-        <li>Render sköter då publiceringen med informationen jag angett.</li>
-      </ul>
-      <p>Väldigt smidigt enligt mig!</p>
-    </div>
+      <div id="info1">
+        <h2>Val av publiceringsplattform</h2>
+        <p>Jag har valt att använda mig av Render för att publicera min webbplats.</p>
+        <p>Kravet för val av plattform är att denna inte ska vara baserad på FTP/SFTP. Plattformen får även gärna vara
+          en plattform vi inte använt tidigare.</p>
+        <p>Mitt val att använda Render, trots att jag använt Render tidigare, baseras på att jag önskar ha mina
+          webbplatser samlade på en plattform. Jag inser dock att det kan vara bra att testa flera plattformar, så jag
+          ska ta till mig av detta framöver i framtida publiceringar.</p>
+        <p>Render har inbyggt stöd för följande språk:</p>
+        <ul>
+          <li>JavaScript och TypeScript (via Node.js eller Bun)</li>
+          <li>Python</li>
+          <li>Ruby</li>
+          <li>Go</li>
+          <li>Rust</li>
+          <li>Elixir</li>
+        </ul>
+        <p>Render har även stöd för publicering av statiska webbplatser skapade med HTML, CSS och Javascript.</p>
+        <br>
+        <p>Kostanden för att använda Render varierar. Enkla statiska webbplatser kan publiceras gratis. Kostnaden för
+          andra tjänster varierar beroende på vilken typ av webbplats som publiceras samt vilken plan användaren har
+          valt.
+        </p>
+        <p>Följande planer finns:</p>
+        <ul>
+          <li>Hobby - $0/månad</li>
+          <li>Pro - $25/månad</li>
+          <li>Scale - $499/månad</li>
+          <li>Enterprise - Skräddarsydd prissättning</li>
+        </ul>
+        <p>Utöver kostnaden för själva planen kan det tillkomma avgifter för använding av olika resurser.</p>
+        <br>
+        <p>Fördelarna med Render enligt mig är att publiceringen är väldigt smidig. Speciellt när man arbetar med Vite
+          och
+          GitHub som jag gör i denna uppgift. Jag tycker även att det är smidigt att ha alla webbplatser samlade på en
+          plattform. Jag personligen har aldrig haft något strul med mina publiceringar på Render.</p>
+        <p>Nackdelarna med att använda Render igen är att jag inte utvecklar någon erfarenhet av att använda andra
+          publiceringsplattformar. Detta är något som jag ska ta till mig av och fundera på att använda andra
+          plattformar
+          framöver.</p>
+        <br>
+        <p>När jag ska publicera min webbplats på Render går jag tillväga på följande sätt:</p>
+        <ul id="numUl">
+          <li>Med kommandot npm run build bygger Vite webbplatsen och optimerar filerna för publicering.</li>
+          <li>En dist-katalog skapas och innehåller de färdiga filerna för webbplatsen.</li>
+          <li>Jag kopplar sedan mitt repository i GitHub till Render och anger npm run build som Build Command och dist
+            som Publish Directory.</li>
+          <li>Render sköter då publiceringen med informationen jag angett.</li>
+        </ul>
+        <p>Väldigt smidigt enligt mig!</p>
+      </div>
 
-  </main>
-  <footer></footer>
+    </main>
+    <footer></footer>
   </div>
 </body>
-
 
 </html>
