@@ -17,23 +17,24 @@
       </h1>
       <nav>
         <ul class="flex w-full text-center list-none p-0">
-          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] p-[8px]"><a href="/"
+          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] py-[16px] p-[8px]"><a href="/"
               class="block text-white underline underline-offset-2">Startsida</a></li>
-          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] p-[8px]"><a href="/frameworkOne.html"
+          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] py-[16px] p-[8px]"><a href="/frameworkOne.html"
               class="block text-white underline underline-offset-2">Ramverk 1</a></li>
-          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] p-[8px]"><a href="/frameworkTwo.html"
+          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] py-[16px] p-[8px]"><a href="/frameworkTwo.html"
               class="block text-white underline underline-offset-2">Ramverk 2</a></li>
-          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] p-[8px]"><a href="/publication.html"
+          <li class="w-1/4 bg-[#2563a6] hover:bg-[#3975ad] py-[16px] p-[8px]"><a href="/publication.html"
               class="block text-white underline underline-offset-2">Publicering</a></li>
         </ul>
       </nav>
     </header>
     <main>
+
       <div class="w-[90%] md:w-[70%] mx-auto mt-[6em] mb-[2em] bg-white p-[1em] rounded-lg">
         <h2 class="text-3xl font-semibold text-center  mt-[1em] mb-[1em]">Tailwind</h2>
         <p class="mb-5">Tailwind är ett CSS-ramverk som används för att bygga webbplatser på ett effektivare sätt genom
-          att lägga
-          CSS-klasser direkt på elementen i HTML-koden. Tailwind innehåller många olika hjälpklasser som kan användas
+          att lägga CSS-klasser direkt på elementen i HTML-koden. Tailwind innehåller många olika hjälpklasser som kan
+          användas
           för att styra webbplatsens utseende och layout. Exempel på detta är färger, marginaler, responsivitet, flexbox
           och textstorlek.</p>
         <p class="mb-2">För att besöka hemsidan kan du använda länken nedan: </p>
@@ -41,17 +42,19 @@
             class="text-blue-800 underline underline-offset-2">Tailwind</a></p>
         <p class="mb-5">Fördelarna jag kan se med att använda Tailwind är absolut likvärdiga med de för Bootstrap.
           Utvecklingen blir
-          mycket mer effektiv när man slipper skriva långa css-filer och kan använda färdiga och namnsatta klasser.
+          mycket mer effektiv när man slipper skriva långa CSS-filer och kan använda färdiga och namnsatta klasser.
           När man redan satt sig in i Bootstrap och lärt sig hur det fungerar blir det även tydligt hur Tailwind
           fungerar, då man kan se likheter. Sedan återkommer vi till den stora fördelen, nämligen att slippa arbeta med
-          responsiviteten för webbplatsen då detta är ett väldigt tidskrävande moment i utvecklingen.</p>
+          responsiviteten för webbplatsen då detta är ett väldigt tidskrävande moment i utvecklingen. Dock så tyckte jag
+          att responsiviteten i Bootstrap för tabellen var lite lättare att få till än i Tailwind.</p>
         <p class="mb-5">Jag har inte upplevt några särskilda nackdelar med Tailwind. Det tar såklart lite tid att hitta
-          alla klasser, men det tar även mycket tid att skriva en hel css-fil. Något som skulle kunna ses som en nackdel
+          alla klasser, men det tar även mycket tid att skriva en hel CSS-fil. Något som skulle kunna ses som en nackdel
           är att HTML-koden kan upplevas lite rörig.
         </p>
         <p class="mb-5">Sammantaget så har jag tyckt om att använda CSS-ramverk, både Bootstrap och Taildwind. Tror
           faktiskt att jag gillar Tailwind lite mer. Jag tror även att om man fortsätter använda liknande ramverk
           framöver så kommer det nog gå ännu bättre samt att utvecklingen blir ännu mer effektiv med tiden.</p>
+
       </div>
 
       <div class="w-[90%] md:w-[70%] mx-auto mt-[6em] mb-[2em] bg-white p-[1em] rounded-lg">
@@ -104,8 +107,72 @@
         </div>
 
       </div>
+
+      <div class="w-[90%] md:w-[70%] mx-auto mt-[6em] mb-[2em] bg-white p-[1em] rounded-lg">
+        <h2 class="text-3xl font-semibold text-center  mt-[1em] mb-[1em]">Är du nöjd med Tailwind?</h2>
+        <p class="mb-5">I formuläret nedan kan du ange din kundnöjdhet med Bootstrap (ej riktigt):</p>
+
+        <form>
+          <div>
+            <label for="Name" class="block mb-[5px]">Namn:</label>
+            <input type="text" class="w-full lg:w-[60%] border border-gray-600 rounded-sm p-[3px] mb-[1em]" id="Name"
+              placeholder="Namn">
+          </div>
+
+          <div>
+            <label for="Comment" class="block mb-[5px]">Kommentar:</label>
+            <textarea class="w-full lg:w-[60%] border border-gray-600 rounded-sm p-[3px] mb-[1em]" id="Comment"
+              placeholder="Ge en kort kommentar om Bootstrap"></textarea>
+          </div>
+
+          <div>
+            <label for="FavoriteTool" class="block mb-[5px]">Bästa verktyg:</label>
+            <select class="w-full lg:w-[60%] border border-gray-600 rounded-sm p-[3px] mb-[1em]" id="FavoriteTool">
+              <option>Välj verktyg..</option>
+              <option value="Tables">Tabeller</option>
+              <option value="Forms">Formulär</option>
+              <option value="Responsiveness">Responsivitet</option>
+              <option value="Margin&Padding">Margin & Padding</option>
+              <option value="ColorComponents">Färgkomponenter</option>
+              <option value="Buttons">Knappar</option>
+              <option value="NoneOfAbove">Inget av ovanstående</option>
+              <option value="DontKnow">Vet ej</option>
+            </select>
+          </div>
+
+
+          <fieldset class="mb-[1em]">
+            <legend class="block mb-[5px]">Sammantaget betyg:</legend>
+
+            <div>
+              <input name="radios" type="radio" id="Pleased" value="Pleased">
+              <label for="Pleased">Nöjd</label>
+            </div>
+
+            <div>
+              <input name="radios" type="radio" id="NotPleased" value="NotPleased" />
+              <label for="NotPleased">Inte nöjd</label>
+            </div>
+          </fieldset>
+
+          <div class="mb-[2em]">
+            <input type="checkbox" id="Consent" value="yes">
+            <label for="Consent">Samtycke (till att dina svar visas i tabellen)</label>
+          </div>
+
+          <div>
+            <button class="border-[2px] border-blue-600 rounded-sm bg-blue-200 px-[8px] py-[4px] mb-[1em]"
+              type="submit">Skicka</button>
+          </div>
+        </form>
+
+      </div>
     </main>
-    <footer></footer>
+    <footer class="text-center text-white border-t-[2px] border-white p-[1em] mt-[5em]">
+      <h3 class="text-xl font-semibold">Laboration 1</h3>
+      <p>CSS-ramverk</p>
+      <p>Emma Heikkinen, 2026</p>
+    </footer>
   </div>
 </body>
 
